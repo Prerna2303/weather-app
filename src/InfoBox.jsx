@@ -1,8 +1,6 @@
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import "./InfoBox.css";
 import ThunderstormIcon from '@mui/icons-material/Thunderstorm';
@@ -49,10 +47,7 @@ function InfoBox({info}) {
             <p>The weather can be described as {info.weather} and feels like = {info.feelslike}&deg;C</p>
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small">Share</Button>
-          <Button size="small">Learn More</Button>
-        </CardActions>
+      
       </Card>
       </div>
     </div>
